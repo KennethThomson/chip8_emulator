@@ -32,7 +32,7 @@ $ ./chip8 10 [delay value] [path to ROM]
 I find that a delay value of 1 - 4 works well but feel free to test different values out for different games.
 
 ## References
-* [Austin Morlan's Guide to Building a CHIP-8 Emulator](https://austinmorlan.com/posts/chip8_emulator/#the-instructions)
+* [Austin Morlan's Guide to Building a CHIP-8 Emulator](https://austinmorlan.com/posts/chip8_emulator/)
 * [CHIP-8 - Wikipedia](https://en.wikipedia.org/wiki/CHIP-8)
 * [Cowgod's Chip-8 Technical Reference v1.0](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM)
 * [Simple DirectMedia Layer (SDL2) Wiki](https://wiki.libsdl.org/CategoryAPI)

@@ -19,17 +19,29 @@ $ make all
 ```
 
 ## ROMs
-The file type for a CHIP-8 ROM is *.c8
+The file type for a CHIP-8 ROM is *.c8.
 
-You can find tons of ROMs for the CHIP-8 online with a simple search.
-
-To those of you to lazy to search for it, here is a secret [link](https://github.com/dmatlack/chip8/tree/master/roms/games) but don't tell anyone...
+You can find tons of ROMs for the CHIP-8 online with a simple search but to those of you to lazy to search for it, here is a [link](https://github.com/dmatlack/chip8/tree/master/roms/games). 
 
 ## Execute the program
 ```
 $ ./chip8 10 [delay value] [path to ROM]
 ```
-I find that a delay value of 1 - 4 works well but feel free to test different values out for different games.
+I find that a delay value of 1 - 4 works well but feel free to adjust the values accordingly.
+
+## Controls
+```
+Keypad       Keyboard
++-+-+-+-+    +-+-+-+-+
+|1|2|3|C|    |1|2|3|4|
++-+-+-+-+    +-+-+-+-+
+|4|5|6|D|    |Q|W|E|R|
++-+-+-+-+ => +-+-+-+-+
+|7|8|9|E|    |A|S|D|F|
++-+-+-+-+    +-+-+-+-+
+|A|0|B|F|    |Z|X|C|V|
++-+-+-+-+    +-+-+-+-+
+```
 
 ## References
 * [Austin Morlan's Guide to Building a CHIP-8 Emulator](https://austinmorlan.com/posts/chip8_emulator/)
